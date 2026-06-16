@@ -9,7 +9,6 @@ public class FirstJavaProgram{
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         System.out.println(a);
-        sc.close();
 
         //datatypes
         int b = 20;
@@ -19,6 +18,9 @@ public class FirstJavaProgram{
         boolean isPass = true;
         char grade = 'B';
         long largeInt = 2343113344L;
-        
+
+        //typecasting
+        float num = sc.nextFloat();
+        System.out.println(num); // if int inputed then widening typecasting
     }
 }
