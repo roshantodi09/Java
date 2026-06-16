@@ -21,6 +21,7 @@ public class FirstJavaProgram{
 
         //typecasting
         float num = sc.nextFloat();
-        System.out.println(num); // if int inputed then widening typecasting
+        int intNum = (int)num;// narrowing typecasting done
+        System.out.println(intNum); // if int inputed then widening typecasting
     }
 }
